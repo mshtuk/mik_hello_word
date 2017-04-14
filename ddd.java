@@ -1,8 +1,6 @@
 public class ddd{
     static final String COMMA = ",";
-
     public static void main(String[] args) {
-
             String str = "876 54-321   CHANGE";
          str = str.replaceAll("\\D+",""); 
          System.out.println(">"+str+"<");
